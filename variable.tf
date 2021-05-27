@@ -8,16 +8,16 @@ variable "ami_id" {
   }
 }
 variable "instance_type" {
-  type    = "string"
+  type    = string
   default = "t2.micro"
 }
 
 variable "device_name" {
-  type    = "string"
+  type    = string
   default = "/dev/xvdh"
 }
 variable "key_name" {
-  type    = "string"
+  type    = string
   default = "ec2-demo"
 }
 
