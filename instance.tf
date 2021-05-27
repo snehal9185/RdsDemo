@@ -9,7 +9,7 @@ resource "aws_instance" "rds_example" {
 
   # Security group assign to instance
   vpc_security_group_ids = [aws_security_group.allow_ssh_http.id]
-  availability_zone="us-east-1a"
+  availability_zone="us-east-2a"
   # key name
   key_name = var.key_name
 
