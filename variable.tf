@@ -22,7 +22,7 @@ variable "device_name" {
 }
 variable "key_name" {
   type    = string
-  default = "Ansible"
+  default = "ec2-demo"
 }
 
 variable "cidr" {
